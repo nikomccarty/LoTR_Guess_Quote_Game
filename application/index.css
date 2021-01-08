@@ -1,0 +1,65 @@
+@import url("https://use.typekit.net/dtl1blh.css");
+
+body {
+  font-family: "gothicus-roman", "gothicus", serif;
+  font-size: 1.5rem;
+  padding: 10px 100px 10px 10px;
+}
+
+h1 {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0px;
+  color: black;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 100%;
+  background: white;
+  bottom: 4px;
+  z-index: -1;
+}
+
+button {
+  margin-bottom: 20px;
+  border: 3px solid white;
+  background: #785039;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px 25px;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  background: #8a884e;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 800px;
+}
+
+.bubble {
+  display: inline-block;
+  position: relative;
+  padding: 30px 40px;
+  border-radius: 10px;
+  border: 3px solid black;
+  background: white;
+  margin: 30px 50px;
+  max-width: 600px;
+}
+
+.subheading {
+    margin: 0 auto;
+    padding: 20px 0px;
+}
